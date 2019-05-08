@@ -1,0 +1,690 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>square gallery | Newsletter</title>
+  <style type="text/css">
+    /* RESET STYLES */
+
+    body,
+    #bodyTable,
+    #bodyCell {
+      height: 100% !important;
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    img,
+    a img {
+      border: 0;
+      outline: none;
+      text-decoration: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0;
+      padding: 0;
+    }
+
+    /*////// CLIENT-SPECIFIC STYLES //////*/
+    .ReadMsgBody {
+      width: 100%;
+    }
+
+    .ExternalClass {
+      width: 100%;
+    }
+
+    /* Force Hotmail/Outlook.com to display emails at full width. */
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+
+    /* Force Hotmail/Outlook.com to display line heights normally. */
+    table,
+    td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    /* Remove spacing between tables in Outlook 2007 and up. */
+    #outlook a {
+      padding: 0;
+    }
+
+    /* Force Outlook 2007 and up to provide a "view in browser" message. */
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    /* Force IE to smoothly render resized images. */
+    body,
+    table,
+    td,
+    p,
+    a,
+    li,
+    blockquote {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    /* General Style */
+    h1,
+    h2,
+    h3 {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .introductionHeading,
+    .introductionContent,
+    .callToActionContent,
+    .callToActionButtonContent,
+    .eventBlockMonth,
+    .eventBlockDay,
+    .eventContent,
+    .whatILikeContent,
+    .whatILikeButtonContent,
+    .footerContent {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    h1,
+    h1 a {
+      color: #d35400;
+      font-size: 44px;
+      font-weight: 300;
+      line-height: 115%;
+      text-align: left;
+    }
+
+    h2,
+    h2 a {
+      color: #606060;
+      font-size: 34px;
+      font-weight: 100;
+      line-height: 100%;
+      text-align: left;
+    }
+
+    h3,
+    h3 a {
+      color: #d35400;
+      font-size: 30px;
+      font-weight: 100;
+      line-height: 115%;
+      text-align: left;
+    }
+
+    body,
+    #bodyTable {
+      background-color: #424145;
+    }
+
+    #emailContainer {
+      width: 100%;
+    }
+
+    #heroImageContainer {
+      background-color: #f0f0f0;
+    }
+
+    #introductionContainer {
+      background-color: #f0f0f0;
+      padding: 40px;
+    }
+
+    #introductionBlock {
+      background-color: #f0f0f0;
+    }
+
+    .introductionHeading {
+      color: #808080;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 150%;
+      padding-left: 80px;
+    }
+
+    .introductionContent {
+      color: #606060;
+      font-size: 18px;
+      line-height: 150%;
+      padding-top: 40px;
+    }
+
+
+    #callToActionContainer {
+      background-color: #d35400;
+      padding: 40px;
+    }
+
+    #callToActionBlock {
+      background-color: #d35400;
+    }
+
+    .callToActionContent h3 {
+      color: #ffffff;
+      text-align: center;
+      font-weight: 400;
+    }
+
+    .callToActionContent {
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 150%;
+      padding-bottom: 40px;
+      text-align: center;
+      font-weight: 300;
+    }
+
+    .callToActionButton {
+      background-color: #f0f0f0;
+      border-radius: 4px;
+      box-shadow: 0 5px 0 #A22A1C;
+    }
+
+    .callToActionButtonContent {
+      padding-top: 20px;
+      padding-right: 40px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+    }
+
+    .callToActionButtonContent,
+    .callToActionButtonContent a {
+      color: #d35400;
+      display: block;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 100%;
+      letter-spacing: -1px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    #eventContainer {
+      background-color: #F0F0F0;
+      padding: 40px;
+    }
+
+    #eventBlock {
+      background-color: #f0f0f0;
+      border-top: 1px solid #BBBBBB;
+      border-bottom: 1px solid #bbbbbb;
+    }
+
+    #eventBlockCell {
+      padding: 40px;
+    }
+
+    #eventBlockCalendar {
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+    }
+
+    .eventBlockHeading {
+      padding-bottom: 40px;
+    }
+
+    .eventContent {
+      color: #606060;
+      font-size: 16px;
+      line-height: 125%;
+      padding-left: 20px;
+    }
+
+    .eventBlockMonth {
+      background-color: #d35400;
+      color: #ffffff;
+      font-size: 19px;
+      font-weight: bold;
+      line-height: 100%;
+      padding: 10px;
+
+    }
+
+    .eventBlockDay {
+      background-color: #ffffff;
+      color: #404040;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 100%;
+    }
+
+    #whatILikeContainer {
+      background-color: #F0F0F0;
+      padding: 40px;
+    }
+
+    #whatILikeBlock {
+      background-color: #ffffff;
+
+      border-collapse: seperate;
+      border-radius: 4px;
+    }
+
+    #whatILikeBlockCell {
+      padding: 40px;
+    }
+
+    .whatILikeBlockHeading {
+      padding-bottom: 40px;
+    }
+
+    .whatILikeBlockLeftColumn {
+      padding-right: 10px;
+    }
+
+    .whatILikeBlockRightColumn {
+      padding-left: 10px;
+    }
+
+    .whatILikeImage {
+      border: 1px solid #dddddd;
+    }
+
+    .whatILikeContent {
+      color: #606060;
+      font-size: 16px;
+      line-height: 110%;
+      padding-left: 10px;
+    }
+
+    .whatILikeButton {
+      background-color: #d35400;
+      border-radius: 4px;
+      box-shadow: 0 5px 0 #A22A1C;
+    }
+
+    .whatILikeButtonContent,
+    .whatILikeButtonContent a {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 100%;
+      letter-spacing: -1px;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .footerContent {
+      color: #AAAAAA;
+      font-size: 13px;
+      line-height: 150%;
+      padding-bottom: 40px;
+    }
+
+    .footerContent a {
+      color: #d35400;
+      text-decoration: none;
+    }
+
+    #footerContainer {
+      padding: 40px;
+    }
+
+    /* Mobile styles */
+    @media only screen and (max-width: 480px) {
+
+      /*////// RESET STYLES //////*/
+      td[id="introductionContainer"],
+      td[id="callToActionContainer"],
+      td[id="eventContainer"],
+      td[id="merchandiseContainer"],
+      td[id="footerContainer"] {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+      }
+
+      table[id="introductionBlock"],
+      table[id="callToActionBlock"],
+      table[id="eventBlock"],
+      table[id="merchandiseBlock"],
+      table[id="footerBlock"] {
+        max-width: 480px !important;
+        width: 100% !important;
+      }
+
+      /*////// CLIENT-SPECIFIC STYLES //////*/
+      body {
+        width: 100% !important;
+        min-width: 100% !important;
+      }
+
+      /* Force iOS Mail to render the email at full width. */
+
+      /*////// GENERAL STYLES //////*/
+      h1 {
+        font-size: 34px !important;
+      }
+
+      h2 {
+        font-size: 30px !important;
+      }
+
+      h3 {
+        font-size: 24px !important;
+      }
+
+      img[id="heroImage"] {
+        height: auto !important;
+        max-width: 520px !important;
+        width: 100% !important;
+      }
+
+      td[class="introductionLogo"],
+      td[class="introductionHeading"] {
+        display: block !important;
+      }
+
+      td[class="introductionHeading"] {
+        padding: 40px 0 0 0 !important;
+      }
+
+      td[class="introductionContent"] {
+        padding-top: 20px !important;
+      }
+
+      td[class="callToActionContent"] {
+        text-align: left !important;
+      }
+
+      table[class="callToActionButton"] {
+        width: 100% !important;
+      }
+
+      td[id="eventBlockCell"] {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+      }
+
+      table[class="eventBlockCalendar"] {
+        width: 100px !important;
+      }
+
+      td[id="merchandiseBlockCell"] {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+      }
+
+      td[class="merchandiseBlockHeading"] h2 {
+        text-align: center !important;
+      }
+
+      td[class="merchandiseBlockLeftColumn"],
+      td[class="merchandiseBlockRightColumn"] {
+        display: block !important;
+        padding: 0 0 20px 0 !important;
+        width: 100% !important;
+      }
+
+      td[class="footerContent"] {
+        font-size: 15px !important;
+      }
+
+      td[class="footerContent"] a {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+      <tr>
+        <td align="center" valign="top" id="bodyCell">
+          <!-- // BEGIN EMAIL -->
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" id="emailContainer">
+            <tr>
+              <td align="center" valign="top" id="heroImageContainer">
+                <!-- // BEGIN HERO BLOCK -->
+                <img src="img/header.gif" alt="Pete Akhurst Image" height="415" width="520" id="heroImage" />
+                <!-- END HERO BLOCK // -->
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" id="introductionContainer">
+
+                <!-- // BEGIN INTRO BLOCK -->
+                <table border="0" cellpadding="0" cellspacing="0" width="520" id="introductionBlock">
+                  <tr>
+                    <td>
+                      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td align="center" valign="top" class="introductionLogo">
+                            <a href="#" target="_blank" title="square gallery"><img src="img/penguin_wave.gif" alt="Pete Logo" height="227" width="295" /></a>
+                          </td>
+                          <td align="left" valign="middle" class="introductionHeading">
+                            Hello, my name is
+                            <br />
+                            <h1>Pete Akhurst</h1>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" class="introductionContent">
+                      I am an experienced Frontend Web Developer with a demonstrated history of working in the agency and start-up sectors. Skilled in Web Design, Adobe Creative Suite, Email Marketing, and web development.
+                    </td>
+                  </tr>
+                </table>
+                <!-- END INTRO BLOCK // -->
+
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" id="callToActionContainer">
+
+                <!-- // BEGIN CALL-TO-ACTION BLOCK -->
+                <table border="0" cellpadding="0" cellspacing="0" width="520" id="callToActionBlock">
+                  <tr>
+                    <td align="center" valign="top" class="callToActionContent">
+                      <h3>I Would love to Work With You<br /></h3>
+                      <br />
+                      I have held a long interest and passion for digital media and have geared and tailored my education and recent work
+                      experience towards making a successful career in this exciting and fast paced industry. I believe that my skill set, passion and commitment would be a valuable asset to your company.
+                      <br />
+                      <br />
+                      I completed my Cert IV in Digital and Graphic Design at Shillington College and successfully completed the twelve week Front End Developer program at General Assembly in Melbourne and have since been contracting as a web
+                      developer and digital designer.
+                      <br />
+                      <br />
+                      I am hard-working, flexible and thrive in a fast-paced environment. I am able to use criticism constructively to enhance my work, and am ambitious.
+                    </td>
+                  </tr>
+
+                </table>
+                <!-- //END CALL-TO-ACTION BLOCK -->
+
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" id="eventContainer">
+
+                <!-- // BEGIN EVENT BLOCK -->
+                <table border="0" cellpadding="0" cellspacing="0" width="600" id="eventBlock">
+                  <tr>
+                    <td align="center" valign="top" id="eventBlockCell">
+                      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td align="left" valign="top" class="eventBlockHeading">
+                            <h2>Upcoming Events</h2>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table border="0" cellpadding="0" cellspacing="0" width="110" class="eventBlockCalendar">
+                                    <tr>
+                                      <td align="center" valign="top" class="eventBlockMonth">
+                                        MAY
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top" class="eventBlockDay">
+                                        20
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td align="left" valign="top" class="eventContent">
+                                  <h3>Starting new job @</h3>
+                                  <strong>Clemenger BBDO</strong>
+                                  <br />
+                                  Smash out some edm's, join the slack channel, send a GIF and get ready for beers on Friday.
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <!-- END EVENT BLOCK // -->
+
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" id="whatILikeContainer">
+
+                <!-- // BEGIN whatILike BLOCK -->
+                <table border="0" cellpadding="0" cellspacing="0" width="600" id="whatILikeBlock">
+                  <tr>
+                    <td align="center" valign="top" id="whatILikeBlockCell">
+                      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td align="left" valign="top" class="whatILikeBlockHeading">
+                            <h2>More about me:</h2>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="center" valign="top" width="50%" class="whatILikeBlockLeftColumn">
+
+                                  <!-- //BEGIN whatILike ITEM -->
+                                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <img src="img/guitar.jpg" height="150" width="110" class="whatILikeImage" />
+                                      </td>
+                                      <td align="left" valign="top" width="100%" class="whatILikeContent">
+                                        I like to play music:
+                                        <br />
+                                        <br />
+                                        <strong>Guitar especially</strong>
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="whatILikeButton">
+                                          <tr>
+                                            <td align="center" valign="middle" class="whatILikeButtonContent">
+                                              <a href="https://www.youtube.com/watch?v=m0swTb1PNxA" target="_blank" title="">Listen</a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- END whatILike ITEM // -->
+
+                                </td>
+                                <td align="center" valign="top" width="50%" class="whatILikeBlockRightColumn">
+
+                                  <!-- //BEGIN whatILike ITEM -->
+                                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <img src="img/code.jpg" height="150" width="110" class="whatILikeImage" />
+                                      </td>
+                                      <td align="left" valign="top" width="100%" class="whatILikeContent">
+                                        I like to write code:
+                                        <br />
+                                        <br />
+                                        <strong>See my website</strong>
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="whatILikeButton">
+                                          <tr>
+                                            <td align="center" valign="middle" class="whatILikeButtonContent">
+                                              <a href="peteakhurst.com" target="_blank" title="">Learn More</a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- END whatILike ITEM // -->
+
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <!-- END whatILike BLOCK // -->
+
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" id="footerContainer">
+
+                <!-- // BEGIN FOOTER BLOCK -->
+                <table border="0" cellpadding="0" cellspacing="0" width="600" id="footerBlock">
+                  <tr>
+                    <td align="center" valign="top" class="footerContent">
+                      <strong>Thank you for reading my email.
+                        <br />
+                        I look forward to hearing from you.</strong>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" class="footerContent">
+                      &copy; 2019 Pete Akhurst. &bull; Fitzroy North &bull; Melbourne, Victoria 3065
+                      <br />
+                      <br />
+                      <a href="#" target="_blank">unsubscribe from list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_blank">set email preferences</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_blank">view in browser</a>
+                    </td>
+                  </tr>
+                </table>
+                <!-- END FOOTER BLOCK // -->
+              </td>
+            </tr>
+          </table>
+          <!-- END EMAIL // -->
+        </td>
+      </tr>
+    </table>
+  </center>
+</body>
+
+</html>
